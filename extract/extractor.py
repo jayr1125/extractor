@@ -34,6 +34,6 @@ def file_extractor(filepath):
             zipObj.close()
         #delete the zip file after extraction
         os.remove(i)
-        os.chdir(r'C:\Users\RodolfoSalvador\Desktop')
+        os.chdir(r'C:\Users\Desktop')
         
 file_extractor(input("Input Filepath: "))
