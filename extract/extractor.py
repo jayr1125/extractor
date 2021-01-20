@@ -4,6 +4,10 @@ import shutil
 from zipfile import ZipFile
 
 def file_extractor(filepath):
+    """
+    Creates a folder with name similar to the zip file to be extracted.
+    Extracts the zip file the folder created.
+    """
     #create a list of filenames in the filepath
     sources = os.listdir(filepath)
     #removes the .zip extension from filenames
